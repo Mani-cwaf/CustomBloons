@@ -80,7 +80,10 @@
     <Compile Include="ModHelperData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="CamGrowFortRed.png" />
+    <EmbeddedResource Include="Orange.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy "$(TargetDir)$(TargetFileName)" "D:\Stuffs\Steam\steamapps\common\BloonsTD6\Mods" /y</PostBuildEvent>
