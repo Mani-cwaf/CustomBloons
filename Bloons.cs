@@ -29,7 +29,7 @@ namespace CustomBloons
     class OrangeBloon : ModBloon
     {
         public override string BaseBloon => BloonType.Black;
-        public override string Icon => "CamGrowFortRed";
+        public override string Icon => "Orange";
         public override bool UseIconAsDisplay => true;
         public override void ModifyBaseBloonModel(BloonModel bloon)
         {
@@ -40,7 +40,7 @@ namespace CustomBloons
         public override string BaseDisplay => GetBloonDisplay("Red");
         public override void ModifyDisplayNode(UnityDisplayNode node)
         {
-            Set2DTexture(node, "CamGrowFortRed");
+            Set2DTexture(node, "Orange");
         }
     }
 }
